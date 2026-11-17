@@ -1,0 +1,108 @@
+﻿Gym Log: setup steps
+====================
+One time only. About 10 to 15 minutes.
+You need: your Windows PC, your iPhone, and an email address.
+
+
+Part 1. On the PC: put the app online
+-------------------------------------
+
+1. Unpack the download.
+   Find gym-log.zip in your Downloads folder. Right-click it, choose
+   "Extract All", then click "Extract". A folder named gym-log opens
+   with 7 files in it. Leave that window open.
+
+2. Make a free GitHub account.
+   Go to https://github.com and click "Sign up".
+   Enter your email, a password and a username. The username becomes
+   part of your app's web address. It can be any made-up word and does
+   not have to be your name.
+   Finish the puzzle, then type in the code GitHub emails you.
+
+3. Make a place for the app.
+   At the top right of GitHub, click the "+" and choose
+   "New repository".
+     Repository name: gym
+     Choose: Public
+     Turn on: Add a README file
+   Click "Create repository".
+
+4. Upload the files.
+   On the page that opens, click "Add file", then "Upload files".
+   Go back to the gym-log folder window. Click any file, press Ctrl+A
+   to select all 7, and drag them onto the GitHub page.
+   Drag the files themselves, not the folder.
+   When all 7 are listed, click the green "Commit changes" button.
+
+5. Switch the website on.
+   Click "Settings" in the row of tabs near the top of the page.
+   (If you can't see it, make the window wider.)
+   In the list on the left, click "Pages".
+   Under "Build and deployment":
+     Source: Deploy from a branch
+     Branch: main, and / (root)
+   Click "Save".
+
+6. Open your app's address.
+   Wait two minutes, then reload the page. A box at the top says
+   "Your site is live at" followed by an address like
+       https://USERNAME.github.io/gym/
+   Click "Visit site". Gym Log opens and shows a square code.
+   If you get a "404" page instead, wait a few more minutes and
+   reload. GitHub says it can take up to 10 minutes.
+
+
+Part 2. On the iPhone: put the app on your Home Screen
+------------------------------------------------------
+
+7. Open the Camera on the iPhone and point it at the square code on
+   the PC screen. Tap the link that appears. It opens in Safari and
+   shows a page of steps.
+
+8. Do the steps on that page:
+     Tap the ... button beside the address bar, then "Share".
+     Scroll down and tap "Add to Home Screen".
+     Leave "Open as Web App" switched on, then tap "Add".
+
+9. Close Safari. While you still have Wi-Fi or signal, tap the new
+   Gym Log icon on your Home Screen. Tap the Backup tab. When
+   "Works with no signal" says "Ready", setup is finished.
+
+From now on, always open Gym Log from that icon.
+
+
+Where your logs are saved
+-------------------------
+On the iPhone, inside the Gym Log app's own storage. Nothing is sent
+to GitHub, Claude or anyone else. GitHub holds only the app itself,
+which has no personal data in it.
+
+What erases the logs: deleting the Gym Log icon from the Home Screen,
+or erasing the iPhone. Closing the app, restarting the phone and
+updating iOS do not erase them.
+
+
+Backups
+-------
+Backup tab, "Back up now", "Save to Files", then choose iCloud Drive.
+Do it after your first workout so you know how it goes. After that,
+the app reminds you about once a week.
+
+To bring logs back, or to move to a new iPhone: Backup tab,
+"Restore from a backup", pick the newest file. Restore only adds
+logs. It never removes any.
+
+
+If something goes wrong
+-----------------------
+A "404" page at your address:
+   Wait 10 minutes. Check that index.html is listed on your
+   repository page and is not inside a folder. Check that
+   Settings, Pages says "Your site is live".
+
+The icon opens Safari with an address bar:
+   Remove the icon, then add it again with "Open as Web App"
+   switched on.
+
+"Works with no signal" stays on "Not yet":
+   Open the app once on Wi-Fi and wait a few seconds.
